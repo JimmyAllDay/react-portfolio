@@ -1,0 +1,26 @@
+$theme-colors: (
+  "info": #81c581,
+  "dark": #303030,
+  "light": #fff,
+);
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+$box-shadow: 0 0.5rem 1rem rgba(black, 0.35);
+
+// import bootstrap stylesheet
+@import "~bootstrap/scss/bootstrap";
