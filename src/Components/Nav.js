@@ -1,5 +1,7 @@
 import React from "react";
 
+import { HashLink } from "react-router-hash-link";
+
 import { Container } from "react-bootstrap";
 
 function Nav(props) {
@@ -8,8 +10,9 @@ function Nav(props) {
   const mappedLinks = navLinks.map((link, i) => {
     return (
       <li key={i} className="nav__item">
-        <a
-          href={link.href}
+        <HashLink
+          smooth
+          to={link.href}
           className="nav__link"
           onClick={() => {
             closeNav();
@@ -17,7 +20,7 @@ function Nav(props) {
           }}
         >
           {link.section}
-        </a>
+        </HashLink>
       </li>
     );
   });

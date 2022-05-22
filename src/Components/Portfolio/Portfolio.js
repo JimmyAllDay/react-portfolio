@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import NavButton from "../NavButton";
 import Nav from "../Nav";
-import Services from "./Services";
+//! import Services from "./Services"; - not currently in use - consider re-instating when appropriate
 import About from "./About";
 import MyWork from "./MyWork";
 
@@ -25,9 +25,9 @@ function Portfolio({ toggleComps, seeComps }) {
 
   const navLinks = [
     { href: "#home", section: "Home" },
-    { href: "#services", section: "What I do" },
-    { href: "#about", section: "About Me" },
     { href: "#work", section: "Portfolio Projects" },
+    //! { href: "#services", section: "What I do" }, - 'services' omitted at current - can reinstate
+    { href: "#about", section: "About Me" },
   ];
 
   const navPagLink = {
@@ -55,9 +55,9 @@ function Portfolio({ toggleComps, seeComps }) {
       </CSSTransition>
 
       <>
-        <Services />
-        <About />
         <MyWork />
+        {/* <Services /> */}
+        <About />
       </>
     </Container>
   );

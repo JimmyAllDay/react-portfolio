@@ -20,8 +20,13 @@ export default function WorkExp() {
           </thead>
           <tbody>
             <tr>
+              <td>Independent Broad-based Anti-Corruption Commission</td>
+              <td>March 2022 - Current</td>
+              <td>Assessment and Review Officer</td>
+            </tr>
+            <tr>
               <td>Department of Social Services</td>
-              <td>July 2021 - Current</td>
+              <td>July 2021 - February 2022</td>
               <td>Funding Arangement Manager</td>
             </tr>
             <tr>
