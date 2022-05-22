@@ -18,11 +18,10 @@ export default function Overview() {
         Node and React. In May of 2021, I completed a{" "}
         <i>Front End Developer Nano-Degree</i> certificate through Udacity. In
         November 2021, I completed a further nano-degree certificate in React,
-        which involved training in Redux. I am currently undertaking another
-        Udacity course to round out my learning with knowledge of MEAN and MERN
-        stacks, and Test Driven Development. I am attracted to roles where I
-        will help realise an entrepreneurial vision, such as roles within
-        innovative or start-up companies. Sustained by a sincere passion for web
+        which involved training in Redux. My current learning priorities include
+        Jest, Node, Mongo DB and Next. I am attracted to roles where I will help
+        realise an entrepreneurial vision, such as roles within innovative or
+        start-up companies. Sustained by a sincere passion for tech and web
         development, I often work on projects late into the night. Employers
         will maximise my value by placing me in roles where I can harness this
         work ethic, while learning from more experienced developers.
