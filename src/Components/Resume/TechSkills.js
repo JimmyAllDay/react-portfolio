@@ -73,7 +73,10 @@ export default function TechSkills() {
         </div>
         <p className="mt-5">
           My portfolio, demonstrating my use of these skills, is{" "}
-          <Link to="/#work">here</Link>.
+          {/* <Link to="/#work" className="print-hide">
+            here
+          </Link> */}
+          <a href="https://jimmyallday.github.io/react-portfolio/">here</a>.
         </p>
       </div>
     </Container>

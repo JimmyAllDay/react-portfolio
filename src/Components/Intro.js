@@ -15,21 +15,20 @@ function Intro() {
         Junior Javascript developer
       </p>
       <div className="section__subtitle--details">
-        <p className="section__subtitle--location">
+        <p className="section__subtitle--location print-hide">
           Fitzroy, Melbourne, Australia
         </p>
-
+        <a
+          className="section__subtitle--link section__subtitle--website print-show"
+          href="https://jimmyallday.github.io/react-portfolio/"
+        >
+          jimmyallday.github.io/react-portfolio
+        </a>
         <a
           className="section__subtitle--link"
           href="mailto:jameswhmarshall@gmail.com"
         >
           jameswhmarshall@gmail.com
-        </a>
-        <a
-          className="section__subtitle--link section__subtitle--website print-show"
-          href="http://jameswhmarshall.info"
-        >
-          jameswhmarshall.info
         </a>
       </div>
       <img src={jamesPic} alt="James Marshall smiling" className="intro__img" />

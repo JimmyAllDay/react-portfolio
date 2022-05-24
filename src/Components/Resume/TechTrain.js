@@ -22,7 +22,7 @@ export default function TechEd() {
             <tr>
               <td>Udacity</td>
               <td>Full Stack Javascript Developer Nano-Degree</td>
-              <td>December 2021 - current</td>
+              <td>December 2021 - March 2022</td>
             </tr>
             <tr>
               <td>Udacity</td>
